@@ -1,0 +1,115 @@
+name: toolxie
+description: Personal development toolbox.
+publish_to: 'none'
+
+version: 1.0.5+10
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  reorderable_grid_view: ^2.2.8
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  url_launcher: ^6.3.0
+  pdf: ^3.11.0
+  open_filex: ^4.3.2
+  font_awesome_flutter: ^10.7.0
+  intl: ^0.20.2
+  numberpicker: ^2.1.2
+  provider: ^6.0.5
+  share_plus: ^12.0.0
+  confetti: ^0.7.0
+  flutter_riverpod: ^2.5.1
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  image: ^4.2.0
+  in_app_purchase: ^3.1.11
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  permission_handler: ^11.3.0
+
+  # Firebase 
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  cloud_firestore: ^6.0.1
+  firebase_storage: ^13.0.3
+
+  # Translations
+  easy_localization: ^3.0.7
+  lottie: ^3.3.2
+  flutter_markdown: ^0.7.7+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.1
+  auto_size_text: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/icons/    
+    - assets/images/goals/
+    - assets/images/affirmations/
+    - assets/translations/
+    - assets/Quicksand-Regular.ttf
+    - assets/Quicksand-Bold.ttf
+    - assets/data/affirmations_pl.json
+    - assets/data/affirmations_en.json
+    - assets/data/affirmations_nl.json
+    - assets/data/questions_pl.json
+    - assets/data/questions_en.json
+    - assets/data/questions_nl.json
+    - assets/data/achievements.json
+    - assets/fire_grey.json
+    - assets/fire_yellow.json
+    - assets/fire_orange.json
+    - assets/fire_red.json
+    - assets/data/reflections_pl.json
+    - assets/data/reflections_en.json
+    - assets/data/reflections_nl.json
+    - assets/images/reflections.webp
+    - assets/images/achievements.webp
+    - assets/images/todos.webp
+    - assets/images/care.webp
+    - assets/images/values.webp
+    - assets/images/routines.webp
+    - assets/images/care.webp
+    - assets/images/vitality.webp
+    - assets/images/habits.webp
+    - assets/images/budget.webp
+    - assets/images/planner.webp
+    - assets/images/house.webp
+    - assets/images/menu.webp
+    - assets/images/notes.webp
+    - assets/images/home.webp
+    - assets/images/favorites.webp
+    - assets/images/las_logo.webp
+    - assets/images/vitality/
+    - assets/images/icons/care/
+
+# --- App icons ---
+flutter_launcher_icons:
+  android: true
+  image_path_android: "assets/images/icons/logo_512.png"
+  image_path_ios: "assets/images/icons/logo_512.png"
+
+# --- Splash screen ---
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/icons/native.png
+  image_dark: assets/images/icons/native.png
+
+  android_12:
+    image: assets/images/icons/native.png
+    image_dark: assets/images/icons/native.png
+    icon_background_color: "#FFFFFF"
+ 
+  android_gravity: center
+  fullscreen: false
